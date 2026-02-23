@@ -735,24 +735,28 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\rahmatillo.abduqodir\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\Repos\\AIChatActivityTracker\\AIChatActivityTracker\\AIChatActivityTracker.csproj",
+      "projectUniqueName": "D:\\Repos\\AIChatActivityTracker\\AIChatActivityTracker\\AIChatActivityTracker.csproj",
       "projectName": "AIChatActivityTracker",
-      "projectPath": "G:\\Repos\\AIChatActivityTracker\\AIChatActivityTracker\\AIChatActivityTracker.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "G:\\Repos\\AIChatActivityTracker\\AIChatActivityTracker\\obj\\",
+      "projectPath": "D:\\Repos\\AIChatActivityTracker\\AIChatActivityTracker\\AIChatActivityTracker.csproj",
+      "packagesPath": "C:\\Users\\rahmatillo.abduqodir\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\AIChatActivityTracker\\AIChatActivityTracker\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\rahmatillo.abduqodir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net10.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -805,7 +809,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.100/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

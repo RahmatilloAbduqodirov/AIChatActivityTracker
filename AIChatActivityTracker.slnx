@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="AIChatActivityTracker.Tests/AIChatActivityTracker.Tests.csproj" />
   <Project Path="AIChatActivityTracker/AIChatActivityTracker.csproj" />
 </Solution>
