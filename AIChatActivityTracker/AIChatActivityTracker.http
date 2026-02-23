@@ -1,6 +1,55 @@
-@AIChatActivityTracker_HostAddress = http://localhost:5013
+@host = http://localhost:5013
 
-GET {{AIChatActivityTracker_HostAddress}}/weatherforecast/
-Accept: application/json
+### Create an activity
+POST {{host}}/api/activities
+Content-Type: application/json
 
-###
+{
+  "title": "Team standup meeting",
+  "description": "Daily sync with the development team",
+  "scheduledAt": "2026-03-01T09:00:00"
+}
+
+### Get all activities
+GET {{host}}/api/activities
+
+### Get activities filtered by status
+GET {{host}}/api/activities?status=Pending
+
+### Get activity by ID (replace with actual GUID)
+GET {{host}}/api/activities/00000000-0000-0000-0000-000000000000
+
+### Update an activity (replace with actual GUID)
+PUT {{host}}/api/activities/00000000-0000-0000-0000-000000000000
+Content-Type: application/json
+
+{
+  "status": "InProgress"
+}
+
+### Delete an activity (replace with actual GUID)
+DELETE {{host}}/api/activities/00000000-0000-0000-0000-000000000000
+
+### Chat - create activity via AI
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{
+  "message": "Create a new activity called 'Code review' scheduled for tomorrow at 2 PM"
+}
+
+### Chat - list activities via AI
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{
+  "message": "Show me all my activities"
+}
+
+### Chat - update activity via AI
+POST {{host}}/api/chat
+Content-Type: application/json
+
+{
+  "message": "Mark the code review activity as completed"
+}
